@@ -68,7 +68,8 @@ p {
   align-items: center;
   justify-content: space-between;
 }
-.main-content {
+.main-content,
+.metaverse {
   max-width: 530px;
 }
 .main-content h1 {
@@ -154,14 +155,62 @@ button:hover:before {
 /*! main end*/
 
 /*! Section */
-
 .section {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.metaverse {
-  max-width: 530px;
-}
 /*! Section end*/
+
+/*! Section2*/
+
+.working_content {
+  padding-block: 90px;
+  margin: 0 auto;
+  max-width: 775px;
+  text-align: center;
+}
+.working_content h1 {
+  font-size: clamp(1.25rem, 0.923rem + 1.63vw, 2.813rem);
+  padding-bottom: 30px;
+}
+.working_content h1 span {
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.working_content p {
+  margin: 0 auto;
+  max-width: 670px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  padding: 18px 19px;
+  max-width: 375px;
+  height: 474px;
+  background: rgba(9, 8, 35, 1);
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.card h1 {
+  padding-block: 20px;
+}
+.card p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/*! Section2 end*/
