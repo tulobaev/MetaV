@@ -1,24 +1,18 @@
 @media (max-width: 1340px) {
-  .main-img img {
-    max-width: 530px;
-  }
+  .main-img img,
   .main_text {
     max-width: 530px;
   }
 }
 
 @media (max-width: 1250px) {
-  .main-img img {
-    max-width: 500px;
-  }
+  .main-img img,
   .main_text {
     max-width: 500px;
   }
 }
 @media (max-width: 1210px) {
-  .main-img img {
-    max-width: 470px;
-  }
+  .main-img img,
   .main_text {
     max-width: 470px;
   }
@@ -28,9 +22,7 @@
 }
 
 @media (max-width: 1150px) {
-  .main-img img {
-    max-width: 430px;
-  }
+  .main-img img,
   .main_text {
     max-width: 430px;
   }
@@ -42,9 +34,7 @@
   }
 }
 @media (max-width: 1070px) {
-  .main-img img {
-    max-width: 400px;
-  }
+  .main-img img,
   .main_text {
     max-width: 400px;
   }
@@ -57,9 +47,7 @@
 }
 
 @media (max-width: 1008px) {
-  .main-img img {
-    max-width: 370px;
-  }
+  .main-img img,
   .main_text {
     max-width: 370px;
   }
@@ -80,9 +68,7 @@
   }
 }
 @media (max-width: 950px) {
-  .main-img img {
-    max-width: 350px;
-  }
+  .main-img img,
   .main_text {
     max-width: 350px;
   }
@@ -100,9 +86,7 @@
   }
 }
 @media (max-width: 910px) {
-  .main-img img {
-    max-width: 320px;
-  }
+  .main-img img,
   .main_text {
     max-width: 320px;
   }
@@ -120,9 +104,7 @@
   }
 }
 @media (max-width: 850px) {
-  .main-img img {
-    max-width: 300px;
-  }
+  .main-img img,
   .main_text {
     max-width: 300px;
   }
@@ -143,9 +125,7 @@
   }
 }
 @media (max-width: 815px) {
-  .main-img img {
-    max-width: 280px;
-  }
+  .main-img img,
   .main_text {
     max-width: 280px;
   }
@@ -160,11 +140,9 @@
   }
 }
 @media (max-width: 765px) {
-  .main-img img {
-    max-width: 280px;
-  }
+  .main-img img,
   .main_text {
-    max-width: 230px;
+    max-width: 280px;
   }
   .btn-box button {
     padding: 7px 10px;
@@ -216,16 +194,50 @@
     display: none;
   }
   .main-img img {
-    max-width: 300px;
+    width: 100%;
   }
   .main_text {
-    max-width: 250px;
+    width: 100%;
   }
   .btn-box button {
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 10px;
   }
   .text_container {
     gap: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 505px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+  .burger {
+    display: flex;
+  }
+  .header nav {
+    display: none;
+  }
+  .main-img img {
+    width: 100%;
+  }
+  .main_text {
+    width: 100%;
+  }
+  .btn-box button {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .text_container {
+    gap: 20px;
+    width: 100%;
+  }
+  .text_box h1 {
+    font-size: 15px;
   }
 }
