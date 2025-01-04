@@ -82,7 +82,7 @@
     align-items: center;
     flex-direction: column;
     padding-block: 40px;
-    gap: 60px;
+    gap: 40px;
   }
   .image-box img,
   .main-content {
