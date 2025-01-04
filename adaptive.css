@@ -178,6 +178,11 @@
   .text_container {
     gap: 20px;
   }
+  .main_text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 705px) {
   .main {
@@ -200,6 +205,9 @@
   .text_container {
     gap: 20px;
     width: 100%;
+  }
+  .main_text {
+    text-align: center;
   }
 }
 
@@ -226,5 +234,8 @@
   }
   .text_box h1 {
     font-size: 15px;
+  }
+  .main_text {
+    text-align: center;
   }
 }
