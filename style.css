@@ -90,7 +90,7 @@ p {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-block: 48px;
+  padding-block: 40px;
 }
 .btn-box button {
   display: inline-block;
@@ -165,7 +165,7 @@ button:hover:before {
 /*! Section2*/
 
 .working_content {
-  padding-block: 90px;
+  padding-block: 80px;
   margin: 0 auto;
   max-width: 775px;
   text-align: center;
@@ -190,6 +190,7 @@ button:hover:before {
 }
 
 .content {
+  padding-block: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
