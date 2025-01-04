@@ -176,9 +176,9 @@
 @media (max-width: 735px) {
   .main {
     display: flex;
+    justify-content: space-between;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-between;
     gap: 50px;
   }
   .burger {
@@ -192,6 +192,34 @@
   }
   .main_text {
     max-width: 230px;
+  }
+  .btn-box button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .text_container {
+    gap: 20px;
+  }
+}
+@media (max-width: 705px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+  .burger {
+    display: flex;
+  }
+  .header nav {
+    display: none;
+  }
+  .main-img img {
+    max-width: 300px;
+  }
+  .main_text {
+    max-width: 250px;
   }
   .btn-box button {
     padding: 5px 10px;
