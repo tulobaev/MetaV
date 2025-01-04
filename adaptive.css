@@ -152,6 +152,9 @@
   }
 }
 @media (max-width: 735px) {
+  .container {
+    width: 100%;
+  }
   .main {
     display: flex;
     justify-content: space-between;
