@@ -1,0 +1,160 @@
+@media (max-width: 1340px) {
+  .main-img img {
+    max-width: 530px;
+  }
+  .main_text {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .main-img img {
+    max-width: 500px;
+  }
+  .main_text {
+    max-width: 500px;
+  }
+}
+@media (max-width: 1210px) {
+  .main-img img {
+    max-width: 470px;
+  }
+  .main_text {
+    max-width: 470px;
+  }
+  .btn-box button {
+    padding: 11px 29px;
+  }
+}
+@media (max-width: 1150px) {
+  .main-img img {
+    max-width: 430px;
+  }
+  .main_text {
+    max-width: 430px;
+  }
+  .btn-box button {
+    padding: 10px 20px;
+  }
+  .header nav {
+    gap: 40px;
+  }
+}
+@media (max-width: 1070px) {
+  .main-img img {
+    max-width: 400px;
+  }
+  .main_text {
+    max-width: 400px;
+  }
+  .btn-box button {
+    padding: 10px 20px;
+  }
+  .header nav {
+    gap: 37px;
+  }
+}
+
+@media (max-width: 1008px) {
+  .main-img img {
+    max-width: 370px;
+  }
+  .main_text {
+    max-width: 370px;
+  }
+  .btn-box button {
+    padding: 9px 18px;
+  }
+  .text_box h1 {
+    font-size: 22px;
+  }
+  .text_box span {
+    font-size: 15px;
+  }
+  .text_container {
+    gap: 60px;
+  }
+  .header nav {
+    gap: 35px;
+  }
+}
+@media (max-width: 950px) {
+  .main-img img {
+    max-width: 350px;
+  }
+  .main_text {
+    max-width: 350px;
+  }
+  .btn-box button {
+    padding: 9px 16px;
+  }
+  .text_box span {
+    font-size: 13px;
+  }
+  .text_container {
+    gap: 57px;
+  }
+  .header nav {
+    gap: 33px;
+  }
+}
+@media (max-width: 910px) {
+  .main-img img {
+    max-width: 320px;
+  }
+  .main_text {
+    max-width: 320px;
+  }
+  .btn-box button {
+    padding: 8px 15px;
+  }
+  .text_box span {
+    font-size: 12px;
+  }
+  .text_container {
+    gap: 53px;
+  }
+  .header nav {
+    gap: 31px;
+  }
+}
+@media (max-width: 850px) {
+  .main-img img {
+    max-width: 300px;
+  }
+  .main_text {
+    max-width: 300px;
+  }
+  .btn-box button {
+    padding: 8px 14px;
+  }
+  .btn-box {
+    padding-block: 22px;
+  }
+  .text_box span {
+    font-size: 11px;
+  }
+  .text_container {
+    gap: 47px;
+  }
+  .header nav {
+    gap: 29px;
+  }
+}
+@media (max-width: 815px) {
+  .main-img img {
+    max-width: 280px;
+  }
+  .main_text {
+    max-width: 280px;
+  }
+  .btn-box button {
+    padding: 8px 12px;
+  }
+  .text_container {
+    gap: 40px;
+  }
+  .header nav {
+    gap: 25px;
+  }
+}
