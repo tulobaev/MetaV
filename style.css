@@ -20,6 +20,7 @@ p {
   font-size: clamp(0.875rem, 0.797rem + 0.39vw, 1.25rem);
   color: #fff;
   font-family: Poppins;
+  line-height: 30px;
 }
 .container {
   max-width: 1850px;
@@ -150,3 +151,17 @@ button:hover:before {
 .image-box img {
   width: auto;
 }
+/*! main end*/
+
+/*! Section */
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.metaverse {
+  max-width: 530px;
+}
+/*! Section end*/

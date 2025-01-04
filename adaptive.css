@@ -77,6 +77,13 @@
     flex-direction: column-reverse;
     gap: 50px;
   }
+  .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 40px;
+    gap: 60px;
+  }
   .image-box img,
   .main-content {
     max-width: 100%;
@@ -95,7 +102,7 @@
     font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
   }
   .btn-box {
-    padding-block: 28px;
+    padding-block: 23px;
   }
   .text-container div {
     line-height: 5px;
