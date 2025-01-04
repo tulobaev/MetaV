@@ -68,6 +68,9 @@
   }
 }
 @media (max-width: 630px) {
+  #main {
+    padding-block: 30px;
+  }
   .main {
     display: flex;
     align-items: center;
@@ -90,5 +93,11 @@
   .burger {
     display: flex;
     font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
+  }
+  .btn-box {
+    padding-block: 28px;
+  }
+  .text-container div {
+    line-height: 5px;
   }
 }
