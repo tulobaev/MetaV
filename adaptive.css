@@ -21,6 +21,13 @@
   .working_content {
     padding-block: 80px;
   }
+  #footer {
+    padding-block: 20px;
+    padding-inline: 0;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 970px) {
   .image-box img,

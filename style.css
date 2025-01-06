@@ -90,7 +90,7 @@ p {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-block: 40px;
+  padding-top: 40px;
 }
 .btn-box button {
   display: inline-block;
@@ -128,6 +128,7 @@ button:hover:before {
   background: linear-gradient(90deg, black, black);
 }
 .text-container {
+  padding-block: 40px;
   display: flex;
   align-items: center;
   gap: 58px;
@@ -197,7 +198,7 @@ button:hover:before {
   padding: 18px 19px;
   max-width: 375px;
   width: 100%;
-  height: 464px;
+  height: 470px;
   background: rgba(9, 8, 35, 1);
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -247,7 +248,6 @@ button:hover:before {
     width: 100%;
   }
 }
-
 .box-play {
   max-width: 375px;
 }
@@ -258,7 +258,6 @@ button:hover:before {
 .park-2 {
   display: none;
   justify-content: space-between;
-  gap: 40px;
 }
 .play-circle {
   padding-top: 20px;
@@ -275,3 +274,54 @@ button:hover:before {
   font-size: clamp(1rem, 0.895rem + 0.52vw, 1.5rem);
 }
 /*! Section3 end */
+
+/*! footer start  */
+#footer {
+  margin-top: 224px;
+  background-color: rgb(9, 8, 35);
+  padding: 104px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.metav {
+  max-width: 504px;
+}
+.metav h1 {
+  font-size: clamp(1.875rem, 1.614rem + 1.31vw, 3.125rem);
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.metav p {
+  margin-top: 23px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+ul li {
+  color: #fff;
+  font-size: 18px;
+  font-family: Poppins;
+  line-height: 35px;
+}
+ul li:first-child {
+  font-family: Orbitron;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.icons-application {
+  display: flex;
+  gap: 30px;
+}
+.icons-application li {
+  font-size: 25px;
+}
+/*! footer end  */
