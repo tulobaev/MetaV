@@ -59,6 +59,7 @@ p {
   display: none;
   font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
 }
+/*! modal menu  */
 .modal_menu {
   position: fixed;
   top: 20px;
@@ -70,7 +71,7 @@ p {
   align-items: center;
   gap: 20px;
   padding: 20px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
@@ -96,6 +97,7 @@ p {
   color: rgb(208, 13, 208);
   transform: scale(1.05);
 }
+/*! modal menu  */
 
 /*! main */
 #main {
@@ -359,11 +361,14 @@ ul li:first-child {
   font-weight: 700;
   margin-bottom: 10px;
 }
-.icons-application {
+.icons-ap {
   display: flex;
-  gap: 25px;
+  align-items: center;
+  gap: 15px;
+  padding-block: 10px;
 }
-.icons-application li {
+.logo {
+  color: #fff;
   font-size: clamp(1rem, 0.882rem + 0.59vw, 1.563rem);
 }
 /*! footer end  */
