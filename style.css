@@ -52,7 +52,7 @@ p {
 }
 .header nav a:hover {
   color: rgb(208, 13, 208);
-  transform: scale(1.1);
+  transform: translateY(-8px);
 }
 .burger {
   display: none;
@@ -164,7 +164,6 @@ button:hover:before {
 /*! Section end*/
 
 /*! Section2*/
-
 .working_content {
   padding-block: 70px;
   margin: 0 auto;
@@ -189,7 +188,6 @@ button:hover:before {
   margin: 0 auto;
   max-width: 670px;
 }
-
 .content {
   display: flex;
   align-items: center;
@@ -197,7 +195,6 @@ button:hover:before {
   flex-wrap: wrap;
   gap: 40px;
 }
-
 .card {
   padding: 18px 19px;
   max-width: 375px;
