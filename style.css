@@ -76,7 +76,6 @@ p {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
-
 .exit_menu {
   color: #fff;
   font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
