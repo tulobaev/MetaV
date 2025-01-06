@@ -207,6 +207,7 @@ button:hover:before {
 }
 .card h1 {
   padding-block: 20px;
+  font-size: clamp(1rem, 0.895rem + 0.52vw, 1.5rem);
 }
 .card p {
   font-size: 14px;
@@ -268,6 +269,9 @@ button:hover:before {
   width: 100%;
 }
 .play-circle p {
-  font-size: 45px;
+  font-size: clamp(2.188rem, 2.057rem + 0.65vw, 2.813rem);
+}
+.play-circle h1 {
+  font-size: clamp(1rem, 0.895rem + 0.52vw, 1.5rem);
 }
 /*! Section3 end */
