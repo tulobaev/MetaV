@@ -23,7 +23,6 @@
   }
   #footer {
     padding-block: 20px;
-    padding-inline: 0;
   }
   .footer {
     flex-wrap: wrap;
@@ -50,6 +49,9 @@
   .main-content {
     max-width: 370px;
   }
+  #footer {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 840px) {
   .image-box img,
@@ -63,6 +65,7 @@
   .park-2 {
     margin: 0 auto;
     flex-direction: column;
+    gap: 40px;
   }
 }
 @media (max-width: 780px) {

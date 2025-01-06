@@ -128,7 +128,7 @@ button:hover:before {
   background: linear-gradient(90deg, black, black);
 }
 .text-container {
-  padding-block: 40px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
   gap: 58px;
@@ -277,9 +277,9 @@ button:hover:before {
 
 /*! footer start  */
 #footer {
+  padding-block: 80px;
   margin-top: 224px;
   background-color: rgb(9, 8, 35);
-  padding: 104px;
 }
 .footer {
   display: flex;
@@ -307,13 +307,13 @@ button:hover:before {
 
 ul li {
   color: #fff;
-  font-size: 18px;
+  font-size: clamp(0.813rem, 0.747rem + 0.33vw, 1.125rem);
   font-family: Poppins;
   line-height: 35px;
 }
 ul li:first-child {
   font-family: Orbitron;
-  font-size: 20px;
+  font-size: clamp(1rem, 0.948rem + 0.26vw, 1.25rem);
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -322,6 +322,6 @@ ul li:first-child {
   gap: 30px;
 }
 .icons-application li {
-  font-size: 25px;
+  font-size: clamp(1rem, 0.882rem + 0.59vw, 1.563rem);
 }
 /*! footer end  */
