@@ -31,6 +31,18 @@ p {
     padding-inline: 20px;
   }
 }
+.cursor-follow {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: #3e0564ad;
+  border-radius: 50%;
+  filter: blur(30px);
+  z-index: -1;
+  pointer-events: none;
+  transition: transform 0.1s ease;
+  transform: translate(-50%, -50%);
+}
 #header {
   padding-block: 35px;
 }
