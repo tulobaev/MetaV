@@ -121,9 +121,7 @@
   .header nav a {
     display: none;
   }
-  .burger {
-    display: flex;
-  }
+  .burger,
   .modal_menu {
     display: flex;
   }
