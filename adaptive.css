@@ -18,6 +18,9 @@
   .main-content {
     max-width: 435px;
   }
+  .working_content {
+    padding-block: 80px;
+  }
 }
 @media (max-width: 970px) {
   .image-box img,
@@ -27,6 +30,12 @@
   .btn-box button {
     padding: 13px 25px;
     font-size: 16px;
+  }
+  .park-img {
+    display: none;
+  }
+  .park-2 {
+    display: flex;
   }
 }
 @media (max-width: 900px) {
@@ -43,6 +52,10 @@
   .btn-box button {
     padding: 13px 23px;
     font-size: 14px;
+  }
+  .park-2 {
+    margin: 0 auto;
+    flex-direction: column;
   }
 }
 @media (max-width: 780px) {
@@ -97,7 +110,6 @@
   }
   .burger {
     display: flex;
-    font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
   }
   .btn-box {
     padding-block: 23px;

@@ -56,10 +56,10 @@ p {
 }
 .burger {
   display: none;
+  font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
 }
 
 /*! main */
-
 #main {
   padding-block: 90px;
 }
@@ -153,7 +153,6 @@ button:hover:before {
   width: auto;
 }
 /*! main end*/
-
 /*! Section */
 .section {
   display: flex;
@@ -162,10 +161,9 @@ button:hover:before {
   padding-top: 40px;
 }
 /*! Section end*/
-
 /*! Section2*/
 .working_content {
-  padding-block: 70px;
+  padding-block: 100px;
   margin: 0 auto;
   max-width: 775px;
   text-align: center;
@@ -214,5 +212,62 @@ button:hover:before {
   font-size: 14px;
   line-height: 25px;
 }
-
 /*! Section2 end*/
+
+/*! Section3 start */
+#activity {
+  padding-block: 10px;
+}
+.activity {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.park-img {
+  overflow-x: auto;
+  display: flex;
+  gap: 100px;
+}
+.park-img img:first-child {
+  animation: img11 20s infinite ease-in-out;
+}
+@keyframes img11 {
+  0% {
+    margin-left: 1%;
+    width: 100%;
+  }
+  50% {
+    margin-left: -50%;
+    width: 100%;
+  }
+  100% {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+.box-play {
+  max-width: 375px;
+}
+.box-play img {
+  border-radius: 20px;
+  width: 100%;
+}
+.park-2 {
+  display: none;
+  justify-content: space-between;
+  gap: 40px;
+}
+.play-circle {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.play-circle p {
+  font-size: 45px;
+}
+/*! Section3 end */
