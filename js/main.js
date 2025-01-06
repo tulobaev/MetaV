@@ -8,3 +8,12 @@ menu.addEventListener("click", () => {
 exit_menu.addEventListener("click", () => {
   modal.style.display = "none";
 });
+
+document.addEventListener("mousemove", function (e) {
+  const cursor = document.querySelector(".cursor-follow");
+  cursor.style.left = `${e.pageX}px`;
+  cursor.style.top = `${e.pageY}px`;
+  // Изменение цвета курсора в зависимости от положения
+  const red = Math.min(255, e.pageX % 255);
+  const green = Math.min(255, e.pageY % 255);
+});
