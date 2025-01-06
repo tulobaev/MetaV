@@ -124,6 +124,9 @@
   .burger {
     display: flex;
   }
+  .modal_menu {
+    display: flex;
+  }
   .btn-box {
     padding-block: 23px;
   }
@@ -131,7 +134,7 @@
     line-height: 5px;
   }
   .content {
-    gap: 20px;
+    gap: 35px;
   }
   .working_content {
     padding-top: 50px;

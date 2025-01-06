@@ -55,8 +55,46 @@ p {
   transform: translateY(-8px);
 }
 .burger {
+  color: white;
   display: none;
   font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
+}
+.modal_menu {
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.modal_menu span {
+  color: #fff;
+  font-size: clamp(1.563rem, 0.781rem + 3.57vw, 2.188rem);
+  font-weight: 500;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menu a {
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.menu a:hover {
+  color: rgb(208, 13, 208);
+  transform: scale(1.05);
 }
 
 /*! main */
@@ -202,6 +240,7 @@ button:hover:before {
   background: rgba(9, 8, 35, 1);
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
+  transition: 1s ease-in;
 }
 .card img {
   width: 100%;
@@ -213,6 +252,9 @@ button:hover:before {
 .card p {
   font-size: 14px;
   line-height: 25px;
+}
+.card:hover {
+  transform: translateY(-20px);
 }
 /*! Section2 end*/
 
@@ -306,7 +348,7 @@ button:hover:before {
 }
 
 ul li {
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
   font-size: clamp(0.813rem, 0.747rem + 0.33vw, 1.125rem);
   font-family: Poppins;
   line-height: clamp(1.563rem, 1.366rem + 0.98vw, 2.5rem);
