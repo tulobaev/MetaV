@@ -284,7 +284,7 @@ button:hover:before {
 .footer {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: clamp(1.563rem, 1.432rem + 0.65vw, 2.188rem);
 }
 .metav {
   max-width: 504px;
@@ -309,7 +309,7 @@ ul li {
   color: #fff;
   font-size: clamp(0.813rem, 0.747rem + 0.33vw, 1.125rem);
   font-family: Poppins;
-  line-height: 35px;
+  line-height: clamp(1.563rem, 1.366rem + 0.98vw, 2.5rem);
 }
 ul li:first-child {
   font-family: Orbitron;
@@ -319,7 +319,7 @@ ul li:first-child {
 }
 .icons-application {
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 .icons-application li {
   font-size: clamp(1rem, 0.882rem + 0.59vw, 1.563rem);
