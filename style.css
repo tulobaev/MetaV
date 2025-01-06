@@ -172,7 +172,7 @@ button:hover:before {
 }
 .working_content h1 {
   font-size: clamp(1.25rem, 0.923rem + 1.63vw, 2.813rem);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .working_content h1 span {
   font-family: Orbitron, sans-serif;
