@@ -31,7 +31,7 @@ p {
     padding-inline: 20px;
   }
 }
-.cursor-follow {
+/* .cursor-follow {
   position: absolute;
   width: 130px;
   height: 130px;
@@ -42,7 +42,7 @@ p {
   pointer-events: none;
   transition: transform 0.1s ease;
   transform: translate(-50%, -50%);
-}
+} */
 #header {
   padding-block: 35px;
 }
